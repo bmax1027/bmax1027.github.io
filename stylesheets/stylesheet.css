@@ -1,8 +1,5 @@
 .title h1 {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:10px;
+   margin:auto;
 }
 .nav a {
   color: #5a5a5a;
