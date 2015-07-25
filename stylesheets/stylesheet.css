@@ -11,3 +11,9 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
