@@ -18,7 +18,14 @@
 
   <script type="text/javascript">
   jQuery(document).ready(function() {
-    jQuery('#vmap').vectorMap({ map: 'usa_en' });
+    jQuery('#vmap').vectorMap({ map: 'usa_en',
+backgroundColor: null,
+color: '#ffffff',
+hoverColor: '#999999',
+selectedColor: '#666666',
+enableZoom: true,
+showTooltip: true,
+selectedRegion: 'MO'});
   });
   </script>
   </head>
@@ -56,7 +63,7 @@
     </div>
 
         <div>
-          <h3>Update 3:53pm</h3>
+          <h3>Update 3:54pm</h3>
         </div>
 
     <div id="vmap" style="width: 600px; height: 400px;"></div>
