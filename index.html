@@ -22,11 +22,13 @@
     jQuery('#vmap').vectorMap({ map: 'usa_en',
     onRegionClick: function(event, code, region)
     {
-      var message = 'You clicked "'
-                  + region
-                  + '" which has the code: '
-                  + code.toUpperCase();
-      alert(message);
+      if(code=="ca") {
+        var message = 'You clicked "'
+                    + region
+                    + '" which has the code: '
+                    + code.toUpperCase();
+        alert(message);
+      }
     },
     backgroundColor: '#00000f',
     color: '#ffffff',
@@ -85,7 +87,7 @@
     </div>
 
         <div>
-          <h3>Update 4:46pm</h3>
+          <h3>Update 4:47pm</h3>
         </div>
 
     <div id="vmap" style="width: 600px; height: 400px;"></div>
