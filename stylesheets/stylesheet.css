@@ -10,3 +10,8 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+.nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
