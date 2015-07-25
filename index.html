@@ -26,8 +26,12 @@
     selectedColor: '#666666',
     enableZoom: false,
     showTooltip: true,
-    selectedRegion: 'MO'});
-
+    selectedRegion: 'MO',
+    onRegionClick: function(element, code, region)
+    {
+      if (code=="il") {
+        window.location.href = "illinois.html";
+      }});
   });
   </script>
 
@@ -77,7 +81,7 @@
     </div>
 
         <div>
-          <h3>Update 4:29pm</h3>
+          <h3>Update 4:30pm</h3>
         </div>
 
     <div id="vmap" style="width: 600px; height: 400px;"></div>
