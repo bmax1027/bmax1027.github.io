@@ -3,15 +3,11 @@
   top:10px;
 }
 .nav a {
+  font-family: 'Lato';
   color: #5a5a5a;
   font-size: 18px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
   text-align: center;
-}
-
-.nav ul {
-    display: inline-block;
-    list-style-type: none;
 }
