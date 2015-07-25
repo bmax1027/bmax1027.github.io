@@ -14,6 +14,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
     <script src="jqvmap/jquery.vmap.js" type="text/javascript"></script>
     <script src="jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+    <script src="js/jquery.vmap.europe.js" type="text/javascript"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
@@ -28,6 +29,17 @@
     selectedRegion: 'MO'});
   });
   </script>
+
+  <script>
+jQuery('#vmap2').vectorMap({
+    map: 'europe_en',
+    backgroundColor: null,
+    color: '#ffffff',
+    hoverColor: '#999999',
+    enableZoom: false,
+    showTooltip: false
+});
+</script>
   </head>
   <body>
 
@@ -63,10 +75,12 @@
     </div>
 
         <div>
-          <h3>Update 3:57pm</h3>
+          <h3>Update 3:59pm</h3>
         </div>
 
     <div id="vmap" style="width: 600px; height: 400px;"></div>
+
+    <div id="vmap2" style="width: 600px; height: 400px;"></div>
 
   </body>
 </html>
