@@ -26,6 +26,7 @@
 }
 
 .fphoto {
+    float: left;
     vertical-align: top;
     display: inline;
     text-align: center;
