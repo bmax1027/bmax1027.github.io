@@ -21,5 +21,6 @@
   flex-wrap:nowrap;
 }
 .update h3 {
-  font-size:10px; 
+  font-size:10px;
+  left-margin:10px;
 }
