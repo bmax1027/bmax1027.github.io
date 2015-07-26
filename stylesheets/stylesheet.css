@@ -24,18 +24,14 @@
   font-size:10px;
   left-margin:10px;
 }
-
-.fphoto {
-    vertical-align: top;
-    display: inline;
-    text-align: center;
-    width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
+.images caption {
+  display: block;
 }
-.fphoto img {
-    width: 200px;
-}
-.fphoto caption {
-    display: block;
+.images ul {
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+  }
+.images ul li {
+  list-style:none;
+  margin-bottom:25px;
 }
