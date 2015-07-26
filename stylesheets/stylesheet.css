@@ -10,9 +10,6 @@
   padding: 14px 10px;
   text-transform: uppercase;
 }
-.maps vmap {
-  float: left;
-}
-.maps vmap2 {
-  float: right;
+.nav a id{
+  color: #A52A2A;
 }
