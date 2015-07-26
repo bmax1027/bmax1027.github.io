@@ -29,12 +29,13 @@
     selectedRegion: 'ca',
     onRegionClick: function(event, code, region)
     {
+      if(code=="il") {
+        window.location.replace("/illinois/");
+      }
+      if(code=="mo") {
+        window.location.replace("/missouri/");
+      }
     if(code=="ca") {
-      var message = 'You clicked "'
-                  + region
-                  + '" which has the code: '
-                  + code.toUpperCase();
-      alert(message);
       window.location.replace("/california/");
     }},
   });
@@ -89,7 +90,7 @@
     </div>
 
         <div>
-          <h3>Update 5:21pm</h3>
+          <h3>Update 5:24pm</h3>
         </div>
 
     <div id="vmap" style="width: 600px; height: 400px;"></div>
