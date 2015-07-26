@@ -10,9 +10,9 @@
   padding: 14px 10px;
   text-transform: uppercase;
 }
-h3 {
+.h3 {
   color:red;
 }
-body {
+.body {
   background-color: #b0c4de;
 }
