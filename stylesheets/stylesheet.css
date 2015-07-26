@@ -29,12 +29,10 @@
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 120px;
+    width: 200px;
 }
 .fphoto img {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
+    width: 200px;
 }
 .fphoto caption {
     display: block;
