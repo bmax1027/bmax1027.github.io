@@ -30,13 +30,16 @@
     onRegionClick: function(event, code, region)
     {
       if(code=="il") {
-        window.location.replace("/illinois/");
+        window.location.replace("/il/");
       }
       if(code=="mo") {
-        window.location.replace("/missouri/");
+        window.location.replace("/mo/");
+      }
+      if(code=="wi") {
+        window.location.replace("/wi/");
       }
     if(code=="ca") {
-      window.location.replace("/california/");
+      window.location.replace("/ca/");
     }},
   });
   });
@@ -90,12 +93,10 @@
     </div>
 
         <div>
-          <h3>Update 5:24pm</h3>
+          <h3>Update 5:32pm</h3>
         </div>
 
-    <div id="vmap" style="width: 600px; height: 400px;"></div>
-
-    <div id="vmap2" style="width: 600px; height: 400px;"></div>
+    <div><h1 id="vmap" style="width: 600px; height: 400px;">Map of US</h1><h1 id="vmap2" style="width: 600px; height: 400px;">Map of Europe</h1></div>
 
   </body>
 </html>
