@@ -53,7 +53,22 @@
     color: '#ffffff',
     hoverColor: '#999999',
     enableZoom: false,
-    showTooltip: true});
+    showTooltip: true,
+  onRegionClick: function(event, code, region)
+  {
+    if(code=="it") {
+      window.location.replace("/it/");
+    }
+    if(code=="hu") {
+      window.location.replace("/hu/");
+    }
+    if(code=="pt") {
+      window.location.replace("/pt/");
+    }
+  if(code=="tr") {
+    window.location.replace("/tr/");
+    }},
+  });
   });
 </script>
 
@@ -93,12 +108,12 @@
     </div>
 
         <div>
-          <h3>Update 5:46pm</h3>
+          <h3>Update 5:49pm</h3>
         </div>
 
     <div class = "maps">
-    <div id="vmap" style="width: 300px; height: 200px;"></div>
-    <div id="vmap2" style="width: 300px; height: 200px;"> </div>
+    <div id="vmap" style="width: 600px; height: 400px;"></div>
+    <div id="vmap2" style="width: 600px; height: 400px;"> </div>
   </div>
 
   </body>
