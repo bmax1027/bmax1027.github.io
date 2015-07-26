@@ -15,7 +15,5 @@
     flex-wrap:nowrap;
 }
 .maps {
-  display:flex;
-  justify-content:space-around;
-  flex-wrap:nowrap;
+  margin:auto;
 }
