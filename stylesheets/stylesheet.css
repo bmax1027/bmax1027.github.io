@@ -24,3 +24,18 @@
   font-size:10px;
   left-margin:10px;
 }
+
+.fphoto {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+.fphoto img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.fphoto caption {
+    display: block;
+}
