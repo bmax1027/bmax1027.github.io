@@ -26,7 +26,12 @@
     selectedColor: '#666666',
     enableZoom: false,
     showTooltip: true,
-    selectedRegion: 'MO',
+    selectedRegion: 'ca',
+    var highlighted_states {
+      il: '#f60',
+      mo: '#f60',
+    },
+    colors: highlighted_states;
     onRegionClick: function(event, code, region)
     {
     if(code=="ca") {
@@ -37,12 +42,6 @@
       alert(message);
       window.location.replace("/california/");
     }},
-    onLabelShow: function(event, label, code)
-    {
-      if(code=="ca") {
-        colors:'#00000f';
-      }
-    },
   });
   });
   </script>
@@ -94,7 +93,7 @@
     </div>
 
         <div>
-          <h3>Update 5:05pm</h3>
+          <h3>Update 5:10pm</h3>
         </div>
 
     <div id="vmap" style="width: 600px; height: 400px;"></div>
