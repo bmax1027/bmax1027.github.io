@@ -28,7 +28,7 @@
     showTooltip: true,
     selectedRegion: 'MO',
     onRegionClick: function(event, code, region)
-  {
+    {
     if(code=="ca") {
       var message = 'You clicked "'
                   + region
@@ -36,8 +36,14 @@
                   + code.toUpperCase();
       alert(message);
       window.location.replace("/california/");
-    }
-  },});
+    }},
+    onLabelShow: function(event, label, code)
+    {
+      if(code=="ca") {
+        colors:'#00000f';
+      }
+    },
+  });
   });
   </script>
 
@@ -88,7 +94,7 @@
     </div>
 
         <div>
-          <h3>Update 4:58pm</h3>
+          <h3>Update 5:05pm</h3>
         </div>
 
     <div id="vmap" style="width: 600px; height: 400px;"></div>
