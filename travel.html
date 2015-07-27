@@ -18,10 +18,14 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
+  var highlighted_states = {
+     il: '#f60',
+  }
   jQuery(document).ready(function() {
     jQuery('#vmap').vectorMap({ map: 'usa_en',
     backgroundColor: '#00000f',
     color: '#ffffff',
+    colors: highlighted_states,
     hoverColor: '#999999',
     selectedColor: '#666666',
     enableZoom: false,
@@ -115,7 +119,7 @@
     </div>
 
     <div class = "update">
-    <h3>Update 9:45pm</h3>
+    <h3>Update 6:40pm - Travel Build</h3>
     </div>
 
   </body>
