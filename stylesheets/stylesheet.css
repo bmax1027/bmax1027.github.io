@@ -27,6 +27,9 @@
 .images caption {
   display: inline;
 }
+.images ul {
+  display:inline;
+}
 .images ul li {
   list-style:none;
   margin-bottom:25px;
