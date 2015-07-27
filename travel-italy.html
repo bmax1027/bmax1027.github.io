@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <title>Travel</title>
+    <title>Home</title>
 
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
@@ -13,82 +13,20 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
     <script src="jqvmap/jquery.vmap.js" type="text/javascript"></script>
-    <script src="jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+    <script src="jqvmap/jquery-jvectormap-it-mill-en.js" type="text/javascript"></script>
     <script src="jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
-  var highlighted_states_us = {
-     il: '#00BFFF',
-     ut: '#00BFFF',
-     ca: '#00BFFF',
-     mo: '#00BFFF',
-     wi: '#00BFFF',
-  }
   jQuery(document).ready(function() {
-    jQuery('#vmap').vectorMap({ map: 'usa_en',
+    jQuery('#map').vectorMap({ map: 'it_mill_en',
     backgroundColor: '#00000f',
     color: '#ffffff',
-    colors: highlighted_states_us,
     hoverColor: '#999999',
     selectedColor: '#666666',
-    enableZoom: false,
-    showTooltip: false,
-    selectedRegion: 'ca',
-    onRegionClick: function(event, code, region)
-    {
-      if(code=="il") {
-        window.location.replace("/il/");
-      }
-      if(code=="ut") {
-        window.location.replace("/ut/");
-      }
-      if(code=="mo") {
-        window.location.replace("/mo/");
-      }
-      if(code=="wi") {
-        window.location.replace("/wi/");
-      }
-    if(code=="ca") {
-      window.location.replace("/ca/");
-    }},
   });
   });
   </script>
-
-  <script type="text/javascript">
-  var highlighted_states_eu = {
-     it: '#00BFFF',
-     hu: '#00BFFF',
-     pt: '#00BFFF',
-     tr: '#00BFFF',
-  }
-  jQuery(document).ready(function() {
-  jQuery('#vmap2').vectorMap({
-    map: 'europe_en',
-    backgroundColor: '#00000f',
-    color: '#ffffff',
-    colors: highlighted_states_eu,
-    hoverColor: '#999999',
-    enableZoom: false,
-    showTooltip: true,
-  onRegionClick: function(event, code, region)
-  {
-    if(code=="it") {
-      window.location.replace("/travel-italy");
-    }
-    if(code=="hu") {
-      window.location.replace("/hu/");
-    }
-    if(code=="pt") {
-      window.location.replace("/pt/");
-    }
-  if(code=="tr") {
-    window.location.replace("/tr/");
-    }},
-  });
-  });
-</script>
 
   </head>
 
@@ -102,11 +40,11 @@
         <nav class="navbar navbar-default">
           <div class="container-fluid">
           <ul class="nav navbar-nav">
-            <li class="active" ><a id:"home" href="http://bmax1027.github.io/home">Home</a></li>
+            <li><a id:"home" href="http://bmax1027.github.io/home">Home</a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/travel/">Travel<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="/travel">Map</a></li>
-                <li><a href="/travel-list">List of Places</a></li>
+                <li><a href="/travel-list/">List of Places</a></li>
               </ul>
             </li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/music/">Music<span class="caret"></span></a>
@@ -114,7 +52,7 @@
                 <li><a href="https://soundcloud.com/connorroach">Soundcloud</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="/fashion/">Fashion<span class="caret"></span></a>
+            <li class="dropdown" class="active"><a class="dropdown-toggle" data-toggle="dropdown" href="/fashion/">Fashion<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="/fashion">Fashion</a></li>
               </ul>
@@ -125,15 +63,12 @@
     </div>
   </div>
 
-
-
-    <div class = "maps">
-    <div id="vmap" style="width: 600px; height: 400px;"></div>
-    <div id="vmap2" style="width: 600px; height: 400px;"> </div>
-    </div>
+  <div class = "maps">
+  <div id="map" style="width: 600px; height: 400px;"></div>
+  </div>
 
     <div class = "update">
-    <h3>Update 6:48pm - Travel Build</h3>
+    <h3>Update 9:44pm - Italy Build</h3>
     </div>
 
   </body>
