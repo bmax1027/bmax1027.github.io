@@ -18,14 +18,18 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
-  var highlighted_states = {
+  var highlighted_states_us = {
      il: '#00BFFF',
+     ut: '#00BFFF',
+     ca: '#00BFFF',
+     mo: '#00BFFF',
+     wi: '#00BFFF',
   }
   jQuery(document).ready(function() {
     jQuery('#vmap').vectorMap({ map: 'usa_en',
     backgroundColor: '#00000f',
     color: '#ffffff',
-    colors: highlighted_states,
+    colors: highlighted_states_us,
     hoverColor: '#999999',
     selectedColor: '#666666',
     enableZoom: false,
@@ -35,6 +39,9 @@
     {
       if(code=="il") {
         window.location.replace("/il/");
+      }
+      if(code=="ut") {
+        window.location.replace("/ut/");
       }
       if(code=="mo") {
         window.location.replace("/mo/");
@@ -50,11 +57,18 @@
   </script>
 
   <script type="text/javascript">
+  var highlighted_states_eu = {
+     it: '#00BFFF',
+     hu: '#00BFFF',
+     pt: '#00BFFF',
+     tr: '#00BFFF',
+  }
   jQuery(document).ready(function() {
   jQuery('#vmap2').vectorMap({
     map: 'europe_en',
     backgroundColor: '#00000f',
     color: '#ffffff',
+    colors: highlighted_states_eu,
     hoverColor: '#999999',
     enableZoom: false,
     showTooltip: true,
@@ -119,7 +133,7 @@
     </div>
 
     <div class = "update">
-    <h3>Update 6:44pm - Travel Build</h3>
+    <h3>Update 6:48pm - Travel Build</h3>
     </div>
 
   </body>
