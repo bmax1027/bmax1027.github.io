@@ -25,16 +25,11 @@
   left-margin:10px;
 }
 .images caption {
-  display: block;
   display: inline;
 }
-
-.images ul li {
-  list-style:none;
-  margin-bottom:25px;
-  display:flex;
-  justify-content:space-around;
-  flex-wrap:nowrap;
+.images ul {
+  display: inline-block;
+  text-align: center;
 }
 
 .update h3 {
