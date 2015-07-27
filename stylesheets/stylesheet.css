@@ -35,3 +35,6 @@
 .update h3 {
   margin-left: 25px;
 }
+.images .img-responsive {
+  margin: 0 auto;
+}
