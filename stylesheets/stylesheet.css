@@ -32,7 +32,7 @@
 .images ul li {
   list-style:none;
   margin-bottom:25px;
-  display:inline flex;
+  display:flex;
   justify-content:space-around;
   flex-wrap:nowrap;
 }
