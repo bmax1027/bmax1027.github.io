@@ -28,7 +28,14 @@
   display: block;
   display: inline;
 }
+.images ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
 .images ul li {
+  display: inline;
   list-style:none;
   margin-bottom:25px;
 }
