@@ -36,9 +36,14 @@
 .img {
     margin: 5px;
     padding: 5px;
-    border: 1px solid #0000ff;
     height: auto;
     width: auto;
     float: left;
     text-align: center;
+}
+.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
 }
