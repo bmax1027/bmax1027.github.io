@@ -6,19 +6,10 @@
 .breakfast .img {
     margin: 5px;
     padding: 5px;
-    height: auto;
-    width: auto;
     float: left;
     text-align: center;
 }
-.breakfast {
-  display:inline;
-  float:none;
-  margin: 0 auto;
-  margin-left: auto;
-  margin-right:auto;
-  vertical-align: middle;
-}
+
 .breakfast h2 {
     color:#FFFFFF;
     text-align: left;
@@ -37,13 +28,10 @@
     display: block;
     margin: 5px;
     border: 1px solid #ffffff;
-    margin: auto;
 }
 .lunch .img {
     margin: 5px;
     padding: 5px;
-    height: auto;
-    width: auto;
     float: left;
     text-align: center;
 }
