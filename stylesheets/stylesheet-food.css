@@ -6,6 +6,8 @@
 .breakfast .img {
     margin: 5px;
     padding: 5px;
+    height: auto;
+    width:auto;
     float: left;
     text-align: center;
 }
@@ -14,14 +16,7 @@
     color:#FFFFFF;
     text-align: left;
 }
-.breakfast {
-  display:inline;
-  float:none;
-  margin: 0 auto;
- margin-left: auto;
-  margin-right:auto;
-  vertical-align: middle;
-}
+
 
 
 
@@ -42,6 +37,8 @@
 .lunch .img {
     margin: 5px;
     padding: 5px;
+    height: auto;
+    width:auto;
     float: left;
     text-align: center;
 }
