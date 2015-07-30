@@ -14,7 +14,8 @@
 }
 .breakfast {
   display:inline;
-  margin: auto;
+  float:none;
+  margin: 0 auto;
 }
 
 
