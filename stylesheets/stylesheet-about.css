@@ -7,3 +7,11 @@
   text-transform: uppercase;
   text-align:center;
 }
+
+.aboutme p {
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: bold;
+  color:#FFFFFF;
+  text-align:center;
+}
