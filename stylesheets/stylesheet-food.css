@@ -15,8 +15,13 @@
     text-align: left;
 }
 .breakfast {
- display:inline;
--}
+  display:inline;
+  float:none;
+  margin: 0 auto;
+ margin-left: auto;
+  margin-right:auto;
+  vertical-align: middle;
+}
 
 
 
