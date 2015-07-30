@@ -16,6 +16,9 @@
     color:#FFFFFF;
     text-align: left;
 }
+.breakfast {
+  padding-top: 10px;
+}
 
 
 
@@ -45,4 +48,7 @@
 .lunch h2 {
     color:#FFFFFF;
     text-align: left;
+}
+.lunch {
+    padding-top: 10px;
 }
