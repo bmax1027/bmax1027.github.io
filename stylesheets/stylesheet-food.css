@@ -16,12 +16,14 @@
 }
 
 
+
 .desc {
     text-align: center;
     font-weight: normal;
     margin: 5px;
     color:#FFFFFF;
 }
+
 
 
 .lunch .img img {
@@ -37,4 +39,5 @@
 }
 .lunch h2 {
     color:#FFFFFF;
+    text-align: left;
 }
