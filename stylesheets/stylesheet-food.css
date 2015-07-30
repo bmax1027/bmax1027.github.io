@@ -1,9 +1,9 @@
-.breakfast .img img {
+.meal .img img {
     display: block;
     margin: 5px;
     border: 1px solid #ffffff;
 }
-.breakfast .img {
+.meal .img {
     margin: 5px;
     padding: 5px;
     height: auto;
@@ -12,11 +12,11 @@
     text-align: center;
 }
 
-.breakfast h2 {
+.meal h2 {
     color:#FFFFFF;
     text-align: left;
 }
-.breakfast {
+.meal {
   padding-top: 10px;
 }
 
@@ -28,27 +28,4 @@
     font-weight: normal;
     margin: 5px;
     color:#FFFFFF;
-}
-
-
-
-.lunch .img img {
-    display: block;
-    margin: 5px;
-    border: 1px solid #ffffff;
-}
-.lunch .img {
-    margin: 5px;
-    padding: 5px;
-    height: auto;
-    width:auto;
-    float: left;
-    text-align: center;
-}
-.lunch h2 {
-    color:#FFFFFF;
-    text-align: left;
-}
-.lunch {
-    padding-top: 10px;
 }
