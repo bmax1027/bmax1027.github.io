@@ -20,3 +20,17 @@
 .breakfast {
   display:inline;
 }
+.lunch .img img {
+    display: block;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+.lunch .img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
