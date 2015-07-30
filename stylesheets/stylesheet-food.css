@@ -2,7 +2,6 @@
     display: block;
     margin: 5px;
     border: 1px solid #ffffff;
-    margin: auto;
 }
 .breakfast .img {
     margin: 5px;
@@ -20,6 +19,10 @@
   margin-right:auto;
   vertical-align: middle;
 }
+.breakfast h2 {
+    color:#FFFFFF;
+    text-align: left;
+}
 
 
 .desc {
@@ -29,14 +32,6 @@
     color:#FFFFFF;
 }
 
-.lunch h2 {
-    color:#FFFFFF;
-}
-
-.breakfast h2 {
-    color:#FFFFFF;
-    text-align: left;
-}
 
 .lunch .img img {
     display: block;
@@ -51,4 +46,7 @@
     width: auto;
     float: left;
     text-align: center;
+}
+.lunch h2 {
+    color:#FFFFFF;
 }
