@@ -12,14 +12,26 @@
     float: left;
     text-align: center;
 }
+.breakfast {
+  display:inline;
+}
+
+
 .desc {
     text-align: center;
     font-weight: normal;
     margin: 5px;
+    color:#FFFFFF;
 }
-.breakfast {
-  display:inline;
+
+.lunch h2 {
+    color:#FFFFFF;
 }
+
+.breakfast h2 {
+    color:#FFFFFF;
+}
+
 .lunch .img img {
     display: block;
     margin: 5px;
